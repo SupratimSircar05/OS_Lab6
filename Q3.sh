@@ -20,4 +20,8 @@ else
     touch ${d}/${f}
 
     echo "New directory with sub-directory and an empty file created !"
+    echo
+    ls  # display whether new directory created or not
+    echo
+    ls ${d}     # display whether sub-directory and file created under directory or not
 fi
