@@ -10,4 +10,6 @@ else
     touch ${f}                              # cat > ${f}
     echo "File created with name ${f} in "
     pwd
+    echo "Contents of this newly created file : "
+    cat ${f}
 fi
