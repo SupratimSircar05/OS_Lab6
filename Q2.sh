@@ -5,7 +5,7 @@ echo "User Write permission given to ${f}"
 echo
 
 echo "This is some text." | tee ${f}
-echo "Above sentence was appended to ${f}"
+echo "Above sentence was inserted into ${f}"
 echo
 
 echo "Modified file contents:"
