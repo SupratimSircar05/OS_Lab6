@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+
+# read a filename from user to check if it exists or not.
+# if exists, display its contents
+# if does not exist, create a file and also display its contents
+
 echo "Enter a filename :"
 read f
 

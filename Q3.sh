@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+
+# to read the name of a directory,
+# if it exists, display the sub-directories and files under current directory.
+# otherwise create a new directory with a sub-directory and a file.
+
 echo "Enter a directory name :"
 read d
 
